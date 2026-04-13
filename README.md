@@ -18,7 +18,7 @@
 推荐使用项目自己的虚拟环境。
 
 ```bash
-cd /Users/ghh/Documents/Code/mcpify/MCN
+cd MCN
 python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
@@ -34,7 +34,7 @@ pip install -e .
 ## 启动
 
 ```bash
-cd /Users/ghh/Documents/Code/mcpify/MCN
+cd MCN
 source .venv/bin/activate
 streamlit run streamlit_app.py
 ```
